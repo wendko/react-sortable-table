@@ -1,8 +1,6 @@
 ## React Sortable Table
 A simple table where mock [data](https://jsonplaceholder.typicode.com/comments) of comments are retrieved and rendered into a React table which can be sorted and filtered.
 
-🚀 [Live demo](react-sortable-comments-table.netlify.app)
-
 ## To run this project
 
 1) Install dependencies using npm or yarn, i.e.

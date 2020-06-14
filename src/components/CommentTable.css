@@ -1,0 +1,56 @@
+table {
+    text-align: left;
+    border-spacing: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 0 16px -6px;
+}
+
+th, td {
+    border: 1px solid rgb(144, 144, 144);
+    padding: 10px;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    width: 30%;
+}
+th:nth-child(2),
+td:nth-child(2) {
+    width: 20%;
+}
+th:nth-child(3),
+td:nth-child(3) {
+    width: 50%;
+}
+
+.comments-container {
+    width: 80vw;
+    min-width: 540px;
+    margin-bottom: 50px;
+}
+
+.btn-sort {
+    float: right;
+    cursor: pointer;
+    background: #aaaaaa;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 2px;
+}
+
+.active-sort {
+    background: pink;
+}
+
+.table-header__title {
+    text-transform: capitalize;
+}
+
+.search-field {
+    margin-bottom: 25px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #aaaaaa;
+}
